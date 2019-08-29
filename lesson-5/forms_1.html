@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--[if lt IE 9]>
+  <script src="/js/html5shiv.js"></script>
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>forms_1</title>
+</head>
+<body>
+
+<form>
+    <legend>Personal information:</legend>
+    First Name:<br>
+    <input type="text" name="firstname"><br>
+    Last Name:<br>
+    <input type="text" name="lastname" />
+</form>
+<form action="forms_1.html" method="get">
+  <input type="radio" value="male">Male<br>
+  <input type="radio" value="female">Female<br>
+  <input type="radio" value="other">Other<br>
+  <input type="submit" value="submit" />
+</form>
+<form>
+  <select name="cars">
+    <input list="Autos" />
+    <datalist id="Autos">
+      <option value="Audi" selected>Audi</option>
+      <option value="BMW">BMW</option>
+      <option value="Mercedes-Benz">Mercedes-Benz</option>
+      <option value="Volkswagen">Volkswagen</option>
+      <option value="Skoda">Skoda</option>
+      <option value="Opel">Opel</option>
+    </datalist>
+  </select><br>
+  <textarea name="message" rows="10" cols="20">
+    Msgme
+  </textarea>
+  <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+</form>
+
+</body>
+</html>
