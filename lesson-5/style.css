@@ -1,0 +1,76 @@
+body {
+    background-color: azure;
+}
+
+h1 {
+    color: firebrick;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-stretch: expanded;
+    font-style: italic;
+    font-size: 30px;
+}
+
+hr {
+    border-color: cadetblue;
+    border-style: solid;
+}
+
+h3 {
+    color: darkblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-stretch: expanded;
+    font-style: normal;
+    font-size: 20px;
+}
+
+fieldset {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: darkblue;
+    border-radius: 3px;
+}
+
+#graph {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: seashell;
+    color: darkblue;
+    font-family: serif;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 15px;
+    border-radius: 3px;
+    border-color: darkblue;
+    border-width: 2px;
+    border-style: solid;
+    outline: none;
+    height: 15px;
+}
+
+#comment {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: seashell;
+    color: darkblue;
+    font-family: serif;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 15px;
+    border-radius: 3px;
+    border-color: darkblue;
+    border-width: 2px;
+    border-style: solid;
+    outline: none;
+}
+
+#copyrights {
+    text-align: center;
+}
+
+#navigation {
+    text-align: center;
+}
