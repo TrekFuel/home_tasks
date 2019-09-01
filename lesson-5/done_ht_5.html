@@ -19,7 +19,6 @@
         height="150"
         width="375"
         title="Пицца Papa Johns"
-        alt title="Пицца Papa Johns"
         alt="Пицца Papa Johns"/>
   </figure>
   <h1>Пицца Papa Johns</h1>
@@ -33,7 +32,7 @@
       <h3>Авторизация</h3>
       Имя пользователя*:<br>
       <input type="text"
-             id="graph"
+             class ="graph"
              name="username"
              maxlength="50"
              pattern="[0-9a-zA-Z]{5,20}"
@@ -44,7 +43,7 @@
              size="30"/><br>
       Пароль*:<br>
       <input type="password"
-             id="graph"
+             class="graph"
              name="password"
              maxlength="50"
              pattern="[0-9a-zA-Z]{10,20}"
@@ -57,7 +56,7 @@
       <h3>Контактная информация</h3>
       Имя*:<br>
       <input type="text"
-             id="graph"
+             class="graph"
              name="name"
              maxlength="50"
              pattern="[A-Za-zА-Яа-яЁё]{3,15}"
@@ -67,7 +66,7 @@
              size="30"/><br>
       Телефон*:<br>
       <input type="tel"
-             id="graph"
+             class="graph"
              name="telephone number"
              maxlength="50"
              pattern="+\375\([1-9]{2}\)[0-9]{3}-[0-9]{2}-[0-9]{2}"
@@ -77,7 +76,7 @@
              size="30"/><br>
       Email*:<br>
       <input type="email"
-             id="graph"
+             class="graph"
              name="email"
              maxlength="50"
              placeholder="Введите ваш email"
@@ -89,7 +88,7 @@
       <h3>Доставка</h3>
       Адрес*:<br>
       <input type="text"
-             id="graph"
+             class="graph"
              name="address"
              maxlength="50"
              placeholder="Введите ваш адрес"
@@ -159,9 +158,7 @@
     <fieldset>
       <h3>Комментарий к заказу</h3>
       <textarea
-          action="http://fe.it-academy.by/TestForm.php"
           autocomplete="off"
-          method="POST"
           name="сomment"
           id="comment"
           cols="50"
