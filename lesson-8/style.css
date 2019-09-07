@@ -1,0 +1,193 @@
+* {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*универсальный селектор*/
+nav a {
+    background-color: gold;
+    color: red;
+}
+/*контекстный(вложенный) селектор*/
+h1+h2 {
+    background-color: greenyellow;
+    color: deeppink;
+}
+nav+menu {
+    font-style: italic;
+}
+/*соседний селектор*/
+figure>img {
+    border-color: red;
+    border-style: solid;
+    border-radius: 30px;
+}
+body>h1 {
+    font-size: 30px;
+    color: #cccccc;
+}
+/*дочерний селектор*/
+input[type] {
+    background-color: deeppink;
+}
+/*простой селектор атрибута*/
+input[type=password] {
+    background-color: #b3d4fc;
+}
+input[type=email] {
+    background-color: #cccccc;
+}
+input[type=tel] {
+    background-color: gold;
+}
+/*селектор атрибута со значением*/
+a[href^="http://"] {
+background-color: aqua;
+}
+/*значение атрибута начинается с определенного текста*/
+a[href$=".by"] {
+    border-style: solid;
+}
+/*значение атрибута оканчивается определенным текстом*/
+a[href*="coinmarketcap"] {
+    background-color: coral;
+}
+a[href*="s13"] {
+    border-style: solid;
+    border-color: orangered;
+}
+/*значение атрибута содержит указанный текст*/
+.refs2:hover {
+    background-color: chartreuse;
+}
+/*псевдокласс hover*/
+input[type=checkbox]:checked {
+    display: none;
+}
+/*псевдокласс checked*/
+input[type=text]:invalid {
+    border-style: dashed;
+    border-width: 3px;
+    border-color: red;
+}
+/*псевдокласс invalid*/
+input[type=text]:required {
+    background-color: lightgreen;
+}
+/*псевдокласс required*/
+input[type=text]:read-only {
+    background-color: #ccc;
+}
+/*псевдокласс read-only*/
+li:last-child {
+    color: limegreen;
+}
+/*псевдокласс last-child*/
+p:last-of-type {
+    color: red;
+    font-size:20px ;
+}
+/*псевдокласс last-cf-type*/
+input[type=text]:disabled {
+    background-color: #999999;
+}
+/*псевдокласс disabled*/
+li:first-child {
+    color: limegreen;
+}
+/*псевдокласс first-child*/
+li:nth-child(odd) {
+    background-color: lightsalmon;
+}
+li:nth-child(even) {
+    background-color: #b3d4fc ;
+}
+p:nth-child(odd) {
+    background-color: lightsalmon;
+}
+p:nth-child(even) {
+    background-color: #b3d4fc ;
+}
+/*псевдокласс nth-child(odd,even)*/
+tr:nth-child(2n) {
+    background-color: lightgreen;
+}
+tr:nth-child(2n+3) {
+    background-color: lightsalmon;
+}
+/*функциональная запись nth-child(An+B);(2n+3, изменяет каждую вторую строку и начинает с третьей)*/
+h3:nth-last-child(2n+1) {
+    background-color: lime;
+}
+h3:nth-last-child(2n+2) {
+    background-color: orangered;
+}
+/*функциональная запись nth-last-child(An+B);(2n+2, изменяет каждую вторую строку с конца и начинает со второй с конца)*/
+i:nth-last-of-type(3n+1) {
+    color: aquamarine;
+    font-size: 30px;
+}
+i:nth-last-of-type(3n+2) {
+    color: fuchsia;
+    font-size: 30px;
+}
+i:nth-last-of-type(3n+3) {
+    color: chartreuse;
+    font-size: 30px;
+}
+/*функциональная запись nth-last-of-type(An+B);(3n+3, изменяет каждую третью строку одного типа с конца и начинает с третьей с конца)*/
+b:nth-of-type(3n+1) {
+    color: red;
+    font-size: 30px;
+}
+b:nth-of-type(3n+2) {
+    color: lime;
+    font-size: 30px;
+}
+b:nth-of-type(3n+3) {
+    color: cornflowerblue;
+    font-size: 30px;
+}
+/*функциональная запись nth-of-type(An+B);(3n+3, изменяет каждую третью строку одного типа и начинает с третьей)*/
+h5::first-line {
+    color: lime;
+    font-size: 20px;
+}
+/*псевдоэлемент first-line*/
+h5::after {
+    color: red;
+    content:"⇒";
+}
+/*псевдоэлемент after*/
+span[data-descr] {
+    position: relative;
+    text-decoration: underline;
+    color: #00F;
+    cursor: help;
+}
+span[data-descr]:hover::after {
+    content: attr(data-descr);
+    position: absolute;
+    left: 0;
+    top: 24px;
+    min-width: 200px;
+    border: 1px #aaaaaa solid;
+    border-radius: 10px;
+    background-color: #ffffcc;
+    padding: 12px;
+    color: #000000;
+    font-size: 14px;
+    z-index: 1;
+}
+/*использование псевдоэлемента ::after в*/
+/*сочетании с CSS-выражением attr() и пользовательского data-* атрибута*/
+/*                                  data-descr для создания подсказки на чистом CSS*/
+h5::before {
+    content:"⊕";
+}
+/*псевдоэлемент before*/
+h6::first-letter {
+    font-size: 25px;
+    color: orangered;
+    background-color: gold;
+}
+/*псевдоэлемент first-letter*/
