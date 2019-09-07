@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--[if lt IE 9]>
+  <script src="/js/html5shiv.js"></script>
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson_8</title>
+  <link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav>
+  <a href="https://auto.ru">auto.ru</a>
+  <a href="https://av.by">av.by</a>
+  <a href="https://abw.by">abw.by</a>
+</nav>
+<menu>
+  <a href="https://tut.by">tut.by</a>
+  <a href="https://onliner.by">onliner.by</a>
+  <a href="https://s13.ru">s13.ru</a>
+</menu>
+<h1>Заголовок первого уровня</h1>
+<h2>Заголовок второго уровня</h2>
+<header>
+  <figure>
+    <img src="https://basicweb.ru/css/primer/8e.png"
+         width="600"
+         height="400"
+         title="Дочерний селектор"
+         alt="Дочерний селектор"/>
+  </figure>
+</header>
+<form>
+  Введите имя пользователя:<input type="text" name="username"/><br>
+  Введите пароль:<input type="password" name="password"/><br>
+  Введите email:<input type="email" name="email"/><br>
+  Введите номер телефона:<input type="tel" name="username"/><br>
+</form>
+<div id="refs">
+  <a href="http://slovari.ru">Slovari.ru</a>
+  <a href="http://znanie.info">Znanie.info</a>
+  <a href="http://s13.ru">S13</a>
+</div>
+<div id="refs1">
+  <a href="https://coinmarketcap.com">coinmarketcap</a>
+  <a href="https://icodrops.com">icodrops</a>
+  <a href="https://blog.coinmarketcap.com">blogcoinmarketcap</a>
+  <a href="https://topicolist.com">topicolist</a>
+  <a href="https://blockchain.coinmarketcap.com/?utm_source=coinmarketcap">blockchaincoinmarketcap</a>
+</div>
+<div>
+  <a href="https://google.com" class="refs2">Google</a>
+</div>
+<form>
+  Выберите марку авто:<br>
+  <input type="checkbox"
+         name="car-brand"
+         value="car-brand1"
+         id="car_brand1"/>
+  <label for="car_brand1">BMW</label><br>
+  <input type="checkbox"
+         name="car-brand"
+         value="car-brand2"
+         id="car_brand2"/>
+  <label for="car_brand2">Mercedes-Benz</label><br>
+  <input type="checkbox"
+         name="car-brand"
+         value="car-brand3"
+         id="car_brand3"/>
+  <label for="car_brand3">Audi</label><br>
+  <input type="checkbox"
+         name="car-brand"
+         value="car-brand4"
+         id="car_brand4"/>
+  <label for="car_brand4">Porsche</label><br>
+</form>
+<form>
+  Имя пользователя:<br>
+  <input type="text"
+         name="username"
+         pattern="[0-9a-zA-Z]{5,20}"
+         placeholder="Введите ваш логин"
+         title="5-20 символов, eng+цифры"
+         required/>
+</form>
+<form>
+  Ваш браузер:<br>
+  <input type="text"
+         name="your-browser"
+         placeholder="Google Chrome"
+         readonly/>
+</form>
+<div class="list">
+  <h2>Santa Cruz V10</h2>
+  <ul>
+    <li>
+      <b>Price:</b> £3,599 (frame only)-£7,999
+    </li>
+    <li>
+      <b>Wheelsize:</b> 27.5” or 29”
+    </li>
+    <li>
+      <b>Sizes:</b> S, M, L (27.5” wheels)/M, L, XL (29” wheels)
+    </li>
+    <li>
+      <b>Material:</b> Carbon fibre
+    </li>
+    <li>
+      <b>Credentials: </b>2018 Vallnord World Cup winner
+    </li>
+  </ul>
+</div>
+<div class="p">
+  <p>один</p>
+  <p>два</p>
+  <p>три</p>
+  <p>четыре</p>
+</div>
+<form>
+  Ваш браузер:<br>
+  <input type="text"
+         name="your-browser"
+         placeholder="Google Chrome"
+         disabled/>
+</form>
+<h1 align="center"> Programming languages comparison</h1>
+<table border="2"
+       bordercolor="mediumblue"
+       cellspacing="0"
+       align="center"
+       cellpadding="5"
+       height="400"
+       width="800"
+       summary="Programming languages comparison">
+  <tr
+      bgcolor="#f0e68c">
+    <th>
+      Programming<br>
+      language
+    </th>
+    <th>
+      Processing<br>
+      speed
+    </th>
+    <th>Readability</th>
+    <th>Simplicity</th>
+    <th>GUI</th>
+    <th>
+      Graphics<br>
+      2D
+    </th>
+    <th>
+      Graphics<br>
+      3D
+    </th>
+    <th>
+      Cross-platform<br>
+      support
+    </th>
+    <th>
+      Special<br>
+      processor
+    </th>
+  </tr>
+  <tr>
+    <th>C</th>
+    <td>8</td>
+    <td>6</td>
+    <td>2</td>
+    <td>3</td>
+    <td>5</td>
+    <td>8</td>
+    <td>7</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <th>C++</th>
+    <td>8</td>
+    <td>6</td>
+    <td>3</td>
+    <td>4</td>
+    <td>6</td>
+    <td>8</td>
+    <td>7</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <th>C#</th>
+    <td>7</td>
+    <td>7</td>
+    <td>5</td>
+    <td>6</td>
+    <td>6</td>
+    <td>7</td>
+    <td>2</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <th>Java</th>
+    <td>6</td>
+    <td>7</td>
+    <td>6</td>
+    <td>7</td>
+    <td>7</td>
+    <td>6</td>
+    <td>10</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <th>Python</th>
+    <td>2</td>
+    <td>5</td>
+    <td>10</td>
+    <td>8</td>
+    <td>10</td>
+    <td>1</td>
+    <td>10</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <th>VB.net</th>
+    <td>6</td>
+    <td>10</td>
+    <td>8</td>
+    <td>10</td>
+    <td>5</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <th>Assembler</th>
+    <td>10</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>5</td>
+  </tr>
+</table>
+<div class list-1>
+  <h3>1</h3>
+  <h3>2</h3>
+  <h3>3</h3>
+  <h3>4</h3>
+  <h3>5</h3>
+  <h3>6</h3>
+</div>
+<div class="i">
+  <i>1</i><br>
+  <i>2</i><br>
+  <i>3</i><br>
+  <i>4</i><br>
+  <i>5</i><br>
+  <i>6</i><br>
+</div>
+<div class="b">
+  <b>1</b><br>
+  <b>2</b><br>
+  <b>3</b><br>
+  <b>4</b><br>
+  <b>5</b><br>
+  <b>6</b><br>
+</div>
+<h5>Самые интересные вещи уходят под капот. Нейронные сети и AI в названии
+  теряют смысл и просто отражаю степень удобства. Наше восприятие прогресса и
+  прекрасного завтра — опять в руках математиков и алгоритмов.
+  Как развитие страны начинается с построения транспортной сети, так и
+  интернет превращается во что-то большое и сложное с каждым новым ускорением
+  каналов связи. Самым главным героем выставки IFA является ожидание разворота
+  инфраструктуры в сторону 5G. На ее базе будет строиться та самая четвертая
+  промышленная революция, которая в Германии уже скрыто идет на крупнейших
+  производствах.
+  Возможность скачать фильм за 7 секунд, постоянная передача телеметрической
+  информации между машинами на «умной» дороге, стриминг 360-градусного видео в
+  прямом эфире — все это позволит нам чувствовать себя в сети еще глубже.
+</h5>
+<h4>
+  Компания <span
+    data-descr="южнокорейская группа компаний, один из крупнейших чеболей, основанный в 1938 году">Samsung</span>
+  привезла на <span
+    data-descr="IFA - официальный партнер будущего! Internationale Funkausstellung Berlin (IFA)  2019— международная ежегодная выставка бытовой электроники, что проходит в Берлине уже много лет. ">IFA 2019</span>
+  исправленную версию
+  нашумевшего
+  складного смартфона с гибким экраном. Модель должны были начать продавать еще
+  в апреле, но предварительные обзоры оставили износостойкость устройства под
+  вопросом. Дисплей же приходил в негодность из-за отслаивания важной адгезивной
+  пленки, защищающей аппарат. На выставке к <span
+    data-descr="Инновационный раскладной смартфон Samsung Galaxy Fold с гибким безрамочным экраном">Galaxy Fold</span>
+  стояла длинная
+  очередь:
+  всем было интересно покрутить в руках что-то действительно новенькое.
+</h4>
+<h6>
+  Телефон с металлическими гранями и глянцевой спинкой. Непривычно толст в
+  сложенном состоянии, однако выглядит устойчиво и ощущается прочно. Падение
+  переживет точно, под экраном чувствуется прочная стальная рамка. По периметру
+  устройства предусмотрен композитный буфер, скрывающий края той самой пленки. В
+  месте сгиба экрана видна небольшая ложбинка. Впрочем, в темноте это никак не
+  влияет на читаемость — это просто равномерный дисплей без искажений.
+
+  Несколько слов о важных камерах. Выпущены они были раньше, но увидеть их
+  вживую получилось лишь на IFA 2019. Это полноформатная Lumix S1: в довольно
+  большом корпусе, с продуманной эргономикой и очень эффективным сенсорным
+  управлением:
+</h6>
+
+</body>
+</html>
