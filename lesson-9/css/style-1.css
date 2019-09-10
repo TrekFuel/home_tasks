@@ -5,27 +5,27 @@
     background: url("../images/sprite.gif") 0 0 no-repeat;
     cursor: pointer;
 }
-.image-link.vk {
+.vk {
     background-position:0 0;
 }
-.image-link.vk:hover {
+.vk:hover {
     background-position:0 -129px;
 }
-.image-link.facebook {
+.facebook {
     background-position:-142px 0;
 }
-.image-link.facebook:hover {
+.facebook:hover {
     background-position:-142px -129px;
 }
-.image-link.twitter {
+.twitter {
     background-position: -284px 0;
 }
-.image-link.twitter:hover {
+.twitter:hover {
     background-position: -284px -129px ;
 }
-.image-link.mail-ru {
+.mail-ru {
     background-position: -426px -0px;
 }
-.image-link.mail-ru:hover {
+.mail-ru:hover {
    background-position: -426px -129px;
 }

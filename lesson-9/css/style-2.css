@@ -5,33 +5,33 @@
     background: url("../images/sprite2.png") 0 0 no-repeat;
     cursor: pointer;
 }
-.image-link1.facebook {
+.facebook {
     background-position: 0 0 ;
 }
-.image-link1.facebook:hover {
+.facebook:hover {
     background-position: 0 -98px;
 }
-.image-link1.twitter {
+.twitter {
     background-position: -100px 0;
 }
-.image-link1.twitter:hover {
+.twitter:hover {
     background-position: -100px -98px;
 }
-.image-link1.youtube {
+.youtube {
     background-position: -200px 0;
 }
-.image-link1.youtube:hover {
+.youtube:hover {
     background-position: -200px -97px;
 }
-.image-link1.instagram {
+.instagram {
     background-position: -299px 0;
 }
-.image-link1.instagram:hover {
+.instagram:hover {
     background-position: -299px -98px;
 }
-.image-link1.linkedin {
+.linkedin {
     background-position: -398px 1px;
 }
-.image-link1.linkedin:hover {
+.linkedin:hover {
     background-position: -398px -98px;
 }
