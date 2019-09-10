@@ -1,0 +1,27 @@
+.headers h1,h2,h3 {
+    font-family: sans-serif;
+    font-stretch: extra-expanded;
+    background-color: #b3d4fc;
+    color: #0000FF;
+}
+/*группирование*/
+.headers h1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+.headers h2 {
+    font-size: 25px;
+    text-decoration: overline;
+}
+.headers h3 {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.text {
+    font-family: monospace;
+    font-style:italic;
+    font-stretch: extra-expanded;
+    background-color: #ffffcc;
+    color: #0000FF;
+}
+/*наследование*/
