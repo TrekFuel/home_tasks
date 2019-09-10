@@ -1,0 +1,37 @@
+.image-link1 {
+    display: inline-block;
+    width: 101px;
+    height: 113px;
+    background: url("../images/sprite2.png") 0 0 no-repeat;
+    cursor: pointer;
+}
+.image-link1.facebook {
+    background-position: 0 0 ;
+}
+.image-link1.facebook:hover {
+    background-position: 0 -98px;
+}
+.image-link1.twitter {
+    background-position: -100px 0;
+}
+.image-link1.twitter:hover {
+    background-position: -100px -98px;
+}
+.image-link1.youtube {
+    background-position: -200px 0;
+}
+.image-link1.youtube:hover {
+    background-position: -200px -97px;
+}
+.image-link1.instagram {
+    background-position: -299px 0;
+}
+.image-link1.instagram:hover {
+    background-position: -299px -98px;
+}
+.image-link1.linkedin {
+    background-position: -398px 1px;
+}
+.image-link1.linkedin:hover {
+    background-position: -398px -98px;
+}
