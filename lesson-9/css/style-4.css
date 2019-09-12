@@ -1,0 +1,39 @@
+body {
+    margin: 0
+}
+header {
+    background-color: #b3d4fc;
+    text-align: center;
+}
+header h1 {
+    line-height: 50px;
+    margin: 0 0;
+}
+nav {
+    width: 150px;
+    height: 400px;
+    margin-top: -15px;
+    background-color: #ffffcc;
+}
+nav p {
+    font-size: 30px;
+    font-family: monospace;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #0000FF;
+}
+a {
+    text-decoration: none;
+}
+section {
+    position: absolute;
+    overflow: auto;
+    padding: 10px;
+    top: 40px;
+    bottom: 0;
+}
+img {
+    width: 400px;
+    height: 280px;
+    margin-left: 400px;
+}
