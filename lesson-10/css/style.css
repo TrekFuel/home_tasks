@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+figure {
+    float: left;
+}
+
+p {
+    padding-top: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.figure1 {
+    float: right;
+}
+
+.grad1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background: linear-gradient(45deg, indianred 20%, orangered 35%, red 40%, darkred 50%, palegreen 53%, lightgreen 56%, limegreen 60%, lawngreen 65%, lightblue 75%, lightskyblue 85%, blue 90%, darkblue);
+}
+
+.grad2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background: repeating-radial-gradient(70% 60%, mediumvioletred 5%, greenyellow 10%, deepskyblue 15%, sandybrown 20%, orange 25%);
+    border-radius: 50%;
+}
+
+.bord {
+    background: orange;
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 20px 5px;
+}
+
+.bord1 {
+    -webkit-border-image: url("../images/border-image.png") 14 7;
+    width: 200px;
+    height: 270px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.bord1 p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.weather {
+    width: 150px;
+    height: 50px;
+    margin: 40px;
+    padding-top: 30px;
+    background: lightsalmon;
+    border-radius: 5px 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    color: royalblue;
+    box-shadow: 8px 8px 10px 5px lightpink;
+}
+
+.weather:hover {
+    transition: 1s ease-in;
+    transform: translate(8px, 8px);
+    box-shadow: none;
+    border: 1.5px solid royalblue;
+    font-style: italic;
+}
+
+
+
