@@ -1,4 +1,5 @@
 body {
+    background: url("../images/email-pattern.png");
     margin: 0;
     padding: 0;
 }
@@ -75,13 +76,21 @@ footer {
 }
 
 @media screen and (max-width: 1000px ) {
-    aside {
-        order: 0;
-        flex-basis: 100px;
+    main {
+        display: flex;
+        flex-direction: column;
     }
 
-    nav {
-        width: 125px;
+    main nav {
+        text-align: center;
+    }
+
+    main nav ul li {
+        padding: 5px 0;
+    }
+
+    main aside h3 {
+        padding-top: 20px;
     }
 }
 
@@ -92,10 +101,9 @@ footer {
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 479px) {
     .container {
-        width: 720px;
+        width: 479px;
         height: 100%;
     }
 }
-
