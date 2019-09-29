@@ -1,0 +1,24 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header > h3 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+div[class^="col"] {
+    background: #ccc;
+    border: 1px solid red;
+}
+
+h3 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container-1 .row {
+    height: 300px;
+    background: lightcyan;
+}

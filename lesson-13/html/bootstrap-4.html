@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--[if lt IE 9]>
+  <script src="/js/html5shiv.js"></script>
+  <![endif]-->
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <title>Bootstrap 4</title>
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"/>
+  <link rel="stylesheet" type="text/css" href="../css/style-1.css"/>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Bootstrap 4</h1>
+  </header>
+  <main>
+    <h3>Колонки одинаковой ширины, т.е. автоматические (класс col)</h3>
+    <div class="row">
+      <div class="col">
+        <h3>1 из 2</h3>
+      </div>
+      <div class="col">
+        <h3>2 из 2</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h3>1 из 3</h3>
+      </div>
+      <div class="col">
+        <h3>2 из 3</h3>
+      </div>
+      <div class="col">
+        <h3>3 из 3</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h3>1 из 4</h3>
+      </div>
+      <div class="col">
+        <h3>2 из 4</h3>
+      </div>
+      <div class="col">
+        <h3>3 из 4</h3>
+      </div>
+      <div class="col">
+        <h3>4 из 4</h3>
+      </div>
+    </div>
+    <h3>Ширина центральной колонки установлена вручную (класс
+      col-"integer")</h3>
+    <div class="row">
+      <div class="col">
+        <h3>1 из 3</h3>
+      </div>
+      <div class="col-6">
+        <h3>2 из 3(широкая)</h3>
+      </div>
+      <div class="col">
+        <h3>3 из 3</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h3>1 из 3</h3>
+      </div>
+      <div class="col-8">
+        <h3>2 из 3(широкая)</h3>
+      </div>
+      <div class="col">
+        <h3>3 из 3</h3>
+      </div>
+    </div>
+    <h3>Контент переменной ширины(col-sm-auto)</h3>
+    <div class="row justify-content-sm-center">
+      <div class="col col-md-2">
+        <h3>1 из 3</h3>
+      </div>
+      <div class="col-sm-auto">
+        <h3>Контент переменной ширины</h3>
+      </div>
+      <div class="col col-md-2">
+        <h3>3 из 3</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h3>1 из 3</h3>
+      </div>
+      <div class="col-sm-auto">
+        <h3>Контент переменной ширины 2</h3>
+      </div>
+      <div class="col col-md-2">
+        <h3>3 из 3</h3>
+      </div>
+    </div>
+    <h3>Мультиряд, т.е перенос типа тега br(w-100)</h3>
+    <div class="row">
+      <div class="col">
+        <h3>1 из 8</h3>
+      </div>
+      <div class="col">
+        <h3>2 из 8(далее перенос)</h3>
+      </div>
+      <div class="w-100"></div>
+      <div class="col">
+        <h3>3 из 8</h3>
+      </div>
+      <div class="col">
+        <h3>4 из 8(далее перенос)</h3>
+      </div>
+      <div class="w-100"></div>
+      <div class="col">
+        <h3>5 из 8</h3>
+      </div>
+      <div class="col">
+        <h3>6 из 8(далее перенос)</h3>
+      </div>
+      <div class="w-100"></div>
+      <div class="col">
+        <h3>7 из 8</h3>
+      </div>
+      <div class="col">
+        <h3>8 из 8</h3>
+      </div>
+    </div>
+    <h3>Брейкпоинты(col-префикс размера-кол-во колонок)</h3>
+    <div class="row">
+      <div class="col-3 col-lg-2">
+        <h3>1 из 4</h3>
+      </div>
+      <div class="col-3 col-lg-4">
+        <h3>2 из 4</h3>
+      </div>
+      <div class="col-3 col-lg-4">
+        <h3>3 из 4</h3>
+      </div>
+      <div class="col-3 col-lg-2">
+        <h3>4 из 4</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2 col-lg-3">
+        <h3>1 из 4</h3>
+      </div>
+      <div class="col-4 col-lg-3">
+        <h3>2 из 4</h3>
+      </div>
+      <div class="col-4 col-lg-3">
+        <h3>3 из 4</h3>
+      </div>
+      <div class="col-2 col-lg-3">
+        <h3>4 из 4</h3>
+      </div>
+    </div>
+    <h3>На мобильных устройствах</h3>
+    <div class="row">
+      <div class="col-sm-8">
+        <h3>col-sm-8</h3>
+      </div>
+      <div class="col-sm-4">
+        <h3>col-sm-4</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md">
+        <h3>col-md</h3>
+      </div>
+      <div class="col-md">
+        <h3>col-md</h3>
+      </div>
+      <div class="col-md">
+        <h3>col-md</h3>
+      </div>
+    </div>
+    <h3>Сложная комбинированная сетка</h3>
+    <div class="row">
+      <div class="col col-lg-2">
+        <h3>col-lg-2</h3>
+      </div>
+      <div class="col col-lg-3">
+        <h3>col-lg-3</h3>
+      </div>
+      <div class="col col-lg-4">
+        <h3>col-lg-4</h3>
+      </div>
+      <div class="col col-lg-3">
+        <h3>col-lg-3</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h3>col</h3>
+      </div>
+      <div class="col-sm-2">
+        <h3>col-sm-2</h3>
+      </div>
+      <div class="col-md-4">
+        <h3>col-md-4</h3>
+      </div>
+      <div class="col-lg-3">
+        <h3>col-lg-3</h3>
+      </div>
+    </div>
+    <h3>Вертикальное выравнивание.<br> В начале строки(align-items-start)</h3>
+    <div class="container-1">
+      <div class="row align-items-start">
+        <div class="col">
+          <h3>Start</h3>
+        </div>
+        <div class="col">
+          <h3>Start</h3>
+        </div>
+        <div class="col">
+          <h3>Start</h3>
+        </div>
+      </div>
+      <h3>По середине строки(align-items-center)</h3>
+      <div class="row align-items-center">
+        <div class="col">
+          <h3>Center</h3>
+        </div>
+        <div class="col">
+          <h3>Center</h3>
+        </div>
+        <div class="col">
+          <h3>Center</h3>
+        </div>
+      </div>
+      <h3>В конце строки(align-items-end)</h3>
+      <div class="row align-items-end">
+        <div class="col">
+          <h3>End</h3>
+        </div>
+        <div class="col">
+          <h3>End</h3>
+        </div>
+        <div class="col">
+          <h3>End</h3>
+        </div>
+      </div>
+      <h3>Вертикальное выравнивание отдельных колонок
+        (align-self-start/center/end)</h3>
+      <div class="row">
+        <div class="col align-self-start">
+          <h3>Start</h3>
+        </div>
+        <div class="col align-self-center">
+          <h3>Center</h3>
+        </div>
+        <div class="col align-self-end">
+          <h3>End</h3>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+</html>
