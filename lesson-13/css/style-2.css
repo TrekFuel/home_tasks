@@ -1,0 +1,79 @@
+body {
+    background: url("../images/email-pattern.png");
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #ccc;
+    text-align: center;
+}
+
+nav {
+    background: lightpink;
+}
+
+nav ul {
+    position: relative;
+    right: 25px;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+aside {
+    padding: 0 10px;
+    text-align: center;
+    background: greenyellow;
+}
+
+.main-content {
+    padding: 0 10px;
+    background: yellow;
+}
+
+nav h3 {
+    text-align: center;
+}
+
+aside h3 {
+    text-align: center;
+}
+
+.main-content h2 {
+    text-align: center;
+}
+
+.main-content figure {
+    float: left;
+    margin-right: 10px;
+}
+
+footer {
+    background: orchid;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px ) {
+    .main-content figure {
+        float: none;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 379px) {
+    .container {
+        width: 379px;
+        height: 100%;
+    }
+}
