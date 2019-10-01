@@ -1,0 +1,44 @@
+main svg ellipse {
+    fill: cornflowerblue;
+}
+
+.ellipse-1 {
+    fill: white;
+}
+
+main svg polygon {
+    fill: white;
+}
+
+main line {
+    stroke: cornflowerblue;
+    stroke-width: 20;
+}
+
+.ellipse-2 {
+    fill: orangered;
+}
+
+.ellipse-3 {
+    fill: orange;
+}
+
+.ellipse-4 {
+    fill: cornflowerblue;
+}
+
+.ellipse-5 {
+    fill: white;
+    stroke: cornflowerblue;
+    stroke-width: 20;
+}
+
+.line-2 {
+    stroke: white;
+    stroke-width: 70px;
+}
+
+.line-3 {
+    stroke: mediumseagreen;
+}
+
