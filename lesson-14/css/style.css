@@ -3,6 +3,29 @@
     margin: 0 auto;
 }
 
+.social {
+    margin-bottom: 20px;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social li {
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 40px;
+}
+
+.social li:hover {
+    transform: scale(1.25);
+    transition: 0.7s ease-in;
+}
+
+.social i {
+    color: green;
+}
+
 main svg ellipse {
     fill: cornflowerblue;
 }
