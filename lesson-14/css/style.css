@@ -1,3 +1,8 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 main svg ellipse {
     fill: cornflowerblue;
 }
@@ -40,5 +45,9 @@ main line {
 
 .line-3 {
     stroke: mediumseagreen;
+}
+
+.line-5 {
+    stroke: orangered;
 }
 
