@@ -1,0 +1,10 @@
+@mixin headerFooter($fontSize) {
+  font-size: $fontSize;
+  background-color: #b3d4fc;
+  text-align: center;
+}
+
+@mixin flexBox {
+  flex-direction: column;
+  display: flex;
+}

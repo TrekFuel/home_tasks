@@ -1,0 +1,99 @@
+@import "variables", "mixins";
+
+body {
+  background: url($bgImage);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: $containerWidth;
+  margin: $containerMargin;
+  @media screen and (max-width: 479px) {
+    width: 479px;
+    height: 100%;
+  }
+}
+
+header {
+  @include headerFooter (30px)
+}
+
+main {
+  display: flex;
+  @media screen and (max-width: 1000px) {
+    @include flexBox;
+    nav {
+      text-align: center;
+
+      ul li {
+        padding: 5px 0;
+
+        aside h3 {
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+nav {
+  flex-basis: $flexBasis;
+  order: 1;
+  background: $navBg;
+
+  ul {
+    position: relative;
+    right: 25px;
+    list-style: none;
+
+    li {
+      padding: 10px 0;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+
+aside {
+  flex-basis: $flexBasis;
+  order: 3;
+  padding: $horPadding;
+  text-align: center;
+  background: $asideBg;
+}
+
+.main-content {
+  flex-basis: $mainFlexBasis;
+  order: 2;
+  padding: $horPadding;
+  background: yellow;
+
+  h2 {
+    text-align: center
+  }
+
+  figure {
+    float: left;
+    @media screen and (max-width: 870px) {
+      float: none;
+      text-align: center;
+    }
+  }
+}
+
+nav h3 {
+  text-align: center;
+}
+
+aside h3 {
+  text-align: center;
+}
+
+footer {
+  @include headerFooter (25px)
+}
+
