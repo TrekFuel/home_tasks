@@ -171,6 +171,35 @@ let yourCar = function (brand = 'BMW', model = 'M3', body = 'E92', color = 'blac
 yourCar('BMW', 'M8 Competition', 'G15', 'Blue', '2019');
 
 
+function getAge(age) {
+  prompt('Сколько Вам лет?');
+  age();
+}
+
+function verifyAge() {
+  confirm('Точно?');
+}
+
+getAge(verifyAge);
+
+
+let sum = function(a, b) {
+  return a + b;
+};
+
+let sum = (a, b) => a + b;
+alert(sum(3, 5));
+
+
+let sum = (a, b) => {
+  let result = a + b;
+  return (result);
+};
+alert(sum(4, 3));
+
+
+
+
 
 
 
