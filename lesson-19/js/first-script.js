@@ -53,8 +53,8 @@ let founder = prompt('Кто является основателем Microsoft?'
 
 
 let x = prompt('Введите Х');
-let y = prompt('Введите Y');
-(x > y) ? alert('x больше, чем y') : alert('x не больше, чем y');
+// let y = prompt('Введите Y');
+// (x > y) ? alert('x больше, чем y') : alert('x не больше, чем y');
 
 
 let x = prompt('Введите число');
@@ -141,7 +141,7 @@ do {
   sum = parseInt(sum + x);
 } while (x < 10);
 alert(sum);
-
+//
 
 for (let x = 0; x <= 10; x++) {
   console.log(x)

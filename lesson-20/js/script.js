@@ -38,7 +38,7 @@ switch (randomNumber) {
     alert('Подумайте еще...');
 }
 
-
+//
 let randomNumber = +prompt('Угадайте число от 0 до 7');
 switch (randomNumber) {
   case 3:
@@ -164,7 +164,7 @@ function getFizzBuzz(n, fizzNumber, buzzNumber) {
 let result = getFizzBuzzOutput(100);
 console.log(result);
 
-
+//
 let yourCar = function (brand = 'BMW', model = 'M3', body = 'E92', color = 'black', year = '2008') {
   alert(brand + ' ' + model + ' ' + body + ' ' + color + ' ' + year);
 };
